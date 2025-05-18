@@ -125,13 +125,13 @@ export default function Experience() {
 
               {/* Date column */}
               <div className="hidden md:block md:col-span-2 text-right pr-10 relative">
-                <div className="sticky top-20">
-                  <div className="text-lg font-semibold text-gray-900 dark:text-white">{exp.period}</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400 mt-1">{exp.location}</div>
-                  <div className="absolute top-1 right-0 w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 border-4 border-white dark:border-gray-950 flex items-center justify-center -translate-x-1/2">
+                <div className="relative h-full">
+                  <div className="text-lg font-semibold text-gray-900 dark:text-white mr-16">{exp.period}</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400 mt-1 mr-16">{exp.location}</div>
+                  <div className="absolute right-0 top-4 w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 border-4 border-white dark:border-gray-950 flex items-center justify-center -translate-x-1/2 mr-2">
                     <Briefcase className="w-3 h-3 text-gray-600 dark:text-gray-400" />
                   </div>
-                  <div className="absolute top-8 bottom-0 right-4 w-0.5 bg-gray-200 dark:bg-gray-800 h-full"></div>
+                  <div className="absolute right-4 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-gray-800"></div>
                 </div>
               </div>
 

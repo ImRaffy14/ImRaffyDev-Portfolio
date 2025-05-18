@@ -79,7 +79,7 @@ export default function Navbar() {
         <div className="container px-4 mx-auto">
           <div className="flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-              Raffy<span className="text-gray-500">Uanan</span>
+              ImRaffy.<span className="text-gray-500">Dev</span>
             </Link>
 
             {/* Desktop Navigation */}

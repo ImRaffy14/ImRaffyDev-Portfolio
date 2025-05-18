@@ -26,25 +26,25 @@ export default function Education() {
 
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
+      degree: "Information Communication Technology",
+      institution: "Commonwealth Highschool",
       year: "2018 - 2020",
       description:
-        "Specialized in Artificial Intelligence and Machine Learning. Completed thesis on 'Neural Networks for Natural Language Processing'.",
+        "Completed high school education with a focus on technology. Acquired foundational skills in web development by learning HTML and CSS. Demonstrated proficiency in creating basic websites.",
     },
     {
-      degree: "Bachelor of Science in Computer Engineering",
-      institution: "University of California, Berkeley",
-      year: "2014 - 2018",
+      degree: "Bachelor of Science in Information Technology",
+      institution: "STI Fairview",
+      year: "2021 - 2022",
       description:
-        "Graduated with honors. Focused on software engineering and web development. Active member of the Web Development Club.",
+        "Initiated higher education journey with a keen interest in Information Technology. Engaged in introductory courses covering fundamental concepts of Java programming and Linux operating systems. Explored practical applications of programming and system administration.",
     },
     {
-      degree: "Full Stack Web Development Bootcamp",
-      institution: "Coding Academy",
-      year: "2013",
+      degree: "Bachelor of Science in Information Technology major in Information Management",
+      institution: "Bestlink College of the Philippines",
+      year: "2022 - 2025",
       description:
-        "Intensive 12-week program covering modern web technologies including JavaScript, React, Node.js, and database management.",
+        "In my fourth year at Bestlink College of the Philippines, I’ve focused on the MERN stack (MongoDB, Express.js, React.js, Node.js) to advance my web development skills. I am leading our capstone project as Scrum Master, Project Manager, and Full Stack Developer. My current work involves developing dynamic web applications and engaging in collaborative projects, constantly applying and expanding my expertise in real-world scenarios.",
     },
   ]
 

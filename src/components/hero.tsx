@@ -82,8 +82,7 @@ export default function Hero() {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0"
             >
-              I build exceptional and accessible digital experiences for the web. Specialized in creating modern,
-              responsive applications with cutting-edge technologies.
+              A passionate BSIT graduate majoring in Information Management, now actively honing my skills to become a future Full Stack Developer. Based in the Philippines, I'm on an exciting journey to merge my love for technology with my drive for innovation.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

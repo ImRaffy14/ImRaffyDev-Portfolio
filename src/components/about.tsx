@@ -64,32 +64,27 @@ export default function About() {
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-300 mb-4">
-              I'm a full stack developer with over 5 years of experience building web applications. I specialize in
-              JavaScript, React, Node.js, and modern web technologies.
+              I'm a Full Stack Developer with over 2 years of experience building dynamic 
+              and responsive web applications. I specialize in the MERN stack (MongoDB, Express.js, React, and Node.js) and have a solid grasp of modern web technologies and best practices.
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-300 mb-6">
-              My journey in web development started when I built my first website at 16. Since then, I've worked with
-              startups and established companies to create scalable, user-friendly applications that solve real-world
-              problems.
+            Since 2022, I’ve worked with various clients to transform ideas into scalable, user-friendly digital solutions. 
+            I'm passionate about writing clean, maintainable code and building intuitive experiences, always striving to stay current with the latest in tech.
             </motion.p>
 
-            <motion.div variants={itemVariants} className="grid grid-cols-2 gap-4 mb-8">
+            <motion.div variants={itemVariants} className="grid grid-cols-3 gap-4 mb-8">
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">5+</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">2+</h3>
                 <p className="text-gray-600 dark:text-gray-400">Years of Experience</p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">50+</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">20+</h3>
                 <p className="text-gray-600 dark:text-gray-400">Projects Completed</p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">20+</h3>
-                <p className="text-gray-600 dark:text-gray-400">Happy Clients</p>
-              </div>
-              <div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">10+</h3>
-                <p className="text-gray-600 dark:text-gray-400">Open Source Contributions</p>
+                <p className="text-gray-600 dark:text-gray-400">Happy Clients</p>
               </div>
             </motion.div>
 
