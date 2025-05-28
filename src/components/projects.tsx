@@ -6,6 +6,15 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github, ArrowRight, ChevronDown, ChevronUp } from "lucide-react"
 import Link from "next/link"
+import Colorcraft from "@/assets/projects/colorcraft.png"
+import Ems from "@/assets/projects/ems.png"
+import Financejjm from "@/assets/projects/jjm-finance.png"
+import NodadoFinance from "@/assets/projects/nodado-finance.png"
+import Nodadolanding from "@/assets/projects/nodado-landing.png"
+import Pacc from "@/assets/projects/pacc.png"
+import Sms from "@/assets/projects/sms.png"
+import V1portolio from "@/assets/projects/v1Portfolio.png"
+import V2portfolio from "@/assets/projects/v2Portfolio.png"
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false)
@@ -14,29 +23,29 @@ export default function Projects() {
   const initialProjects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "JJM Manufacturing Finance Management System",
       description:
-        "A full-featured e-commerce platform with payment processing, user authentication, and admin dashboard.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Next.js", "Node.js", "MongoDB", "Stripe"],
-      githubUrl: "#",
-      liveUrl: "#",
+        "A capstone and client-based project designed to streamline financial operations for a manufacturing firm. Key features include automated financial tracking and a machine learning-powered AI for anomaly detection to enhance accuracy and security.",
+      image: Financejjm,
+      technologies: ["React", "Node.js", "MongoDB", "Tensorflow", "Tailwind", "Express"],
+      githubUrl: "https://github.com/ImRaffy14/Manufacturing-finance-client",
+      liveUrl: "https://finance.jjm-manufacturing.com/",
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team workspaces.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
+      title: "Pilot Area Community Chapter System",
+      description: "A private system built to manage residents, funds, and attendance for our community chapter. It streamlines administrative tasks with features like resident database management, financial tracking, and attendance monitoring—showcasing my ability to develop tailored, efficient solutions.",
+      image: Pacc,
+      technologies: ["HTML", "CSS", "Bootstrap", "PHP", "MySQL", "Javascript"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
       id: 3,
-      title: "Real Estate Marketplace",
-      description: "A real estate marketplace with property listings, search filters, and user messaging.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Vue.js", "Laravel", "MySQL", "AWS"],
+      title: "Nodado Finance Management System",
+      description: "A custom financial management system developed for Nodado General Hospital to streamline and centralize financial operations. The system handles budgeting, expense tracking, and financial reporting, improving overall efficiency, accuracy, and transparency in hospital fund management.",
+      image: NodadoFinance,
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind"],
       githubUrl: "#",
       liveUrl: "#",
     },
@@ -46,57 +55,57 @@ export default function Projects() {
   const additionalProjects = [
     {
       id: 4,
-      title: "Social Media Dashboard",
-      description: "A comprehensive dashboard for managing and analyzing social media accounts and campaigns.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["React", "Express", "PostgreSQL", "Chart.js"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Nodado Management System",
+      description: "A comprehensive management system developed for Nodado General Hospital, integrating core administrative functions including finance and HR. The system streamlines operations such as financial tracking, budgeting, employee records, and HR processes, enhancing overall efficiency and organizational management.",
+      image: Nodadolanding,
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind"],
+      githubUrl: "https://github.com/ImRaffy14/HOSPITAL-CORE3",
+      liveUrl: "https://nodadogenhospital.com/",
     },
     {
       id: 5,
-      title: "Learning Management System",
-      description: "An educational platform for creating, managing and delivering online courses and assessments.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Next.js", "Supabase", "Tailwind CSS", "Stripe"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Enrollment Management System",
+      description: "A full-stack system designed to manage student enrollment processes efficiently. Features include student registration, course management, and real-time status tracking—streamlining administrative tasks for educational institutions.",
+      image: Ems,
+      technologies: ["React", "Node.js", "Typescipt", "MongoDB", "Prisma", "Tailwind"],
+      githubUrl: "https://github.com/ImRaffy14/Enrollment-System",
+      liveUrl: "https://enrollment.imraffydev.com/login",
     },
     {
       id: 6,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing projects and skills with dark/light mode support.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "School Management System",
+      description: "A system built to enhance student communications within a school setting. It streamlines announcements, messaging, and updates between students, teachers, and administrators—improving overall engagement and information flow.",
+      image: Sms,
+      technologies: ["React", "Node.js", "Typescipt", "MongoDB", "Prisma", "Tailwind"],
+      githubUrl: "https://github.com/ImRaffy14/SMS-PROJECT",
+      liveUrl: "https://sms.imraffydev.com/login",
     },
     {
       id: 7,
-      title: "Recipe Sharing Platform",
-      description: "A community-driven platform for sharing and discovering recipes with social features.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["React", "Node.js", "MongoDB", "AWS S3"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "Colorcraft Co.",
+      description: "A sleek and visually engaging landing page developed for Colorcraft Co., showcasing their products and services. The page emphasizes a user-friendly design with modern web elements, aiming to provide an intuitive experience for visitors while highlighting the company’s branding and offerings.",
+      image: Colorcraft,
+      technologies: ["React", "Tailwind"],
+      githubUrl: "https://github.com/ImRaffy14/ColorCraft.co",
+      liveUrl: "https://imraffy14.github.io/ColorCraft.co",
     },
     {
       id: 8,
-      title: "Fitness Tracker",
-      description: "A web application for tracking workouts, nutrition, and fitness progress with data visualization.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["React", "Express", "PostgreSQL", "D3.js"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "v1 ImRaffyDev Portfolio",
+      description: "A collection of full-stack systems I’ve developed to solve real-world problems across various industries, including finance, healthcare, education, and community management. Each project highlights my ability to create efficient, customized solutions using modern web technologies.",
+      image: V1portolio,
+      technologies: ["React", "Tailwind" ],
+      githubUrl: "https://github.com/ImRaffy14/ImRaffyDev-Portfolio",
+      liveUrl: "https://v1.imraffydev.com/",
     },
     {
       id: 9,
-      title: "Budget Management App",
-      description: "A personal finance application for tracking expenses, income, and budget planning.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS", "Chart.js"],
-      githubUrl: "#",
-      liveUrl: "#",
+      title: "v2 ImRaffyDev Portfolio",
+      description: "These projects reflect my hands-on experience in building tailored management systems for businesses, schools, and communities. Focused on usability and functionality, my work combines practical needs with full-stack development to deliver impactful solutions.",
+      image: V2portfolio,
+      technologies: ["Next.js", "Typescript", "Tailwind"],
+      githubUrl: "https://github.com/ImRaffy14/ImRaffy.dev",
+      liveUrl: "https://imraffydev.com"
     },
   ]
 
