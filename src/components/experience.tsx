@@ -26,42 +26,30 @@ export default function Experience() {
 
   const experiences = [
     {
-      position: "Senior Full Stack Developer",
-      company: "TechInnovate Solutions",
-      location: "San Francisco, CA",
-      period: "2020 - Present",
+      position: "Freelance Full-Stack Developer",
+      company: "Freelance",
+      location: "Freelance",
+      period: "2022 - Present",
       description:
-        "Leading the development of enterprise web applications using Next.js, React, and Node.js. Managing a team of 5 developers and collaborating with product managers to deliver high-quality software solutions.",
+        "Built and maintained end-to-end web applications with responsive design and smooth user experiences. Collaborated with clients to deliver customized solutions using HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
       achievements: [
-        "Redesigned the company's flagship product, resulting in a 40% increase in user engagement",
-        "Implemented CI/CD pipelines that reduced deployment time by 60%",
-        "Mentored junior developers and established coding standards across the team",
+        "Developed and maintained multiple end-to-end web applications, ensuring responsive designand seamless user experiences.",
+        "Collaborated with clients to understand their needs and deliver tailored web solutions",
+        "Managed both front-end and back-end development using technologies such as HTML, CSS,JavaScript, React, Node.js, and MongoDB.",
       ],
     },
     {
-      position: "Full Stack Developer",
-      company: "WebSphere Inc.",
-      location: "Seattle, WA",
-      period: "2018 - 2020",
+      position: "Intern – Frontend Developer",
+      company: "Ichico Solutions",
+      location: "Maryland Cubao",
+      period: "2025",
       description:
-        "Developed and maintained multiple web applications for clients in various industries. Worked with React, Express, MongoDB, and AWS to create scalable and responsive web solutions.",
+        "Contributed to the development and management of a SaaS project using Next js.",
       achievements: [
-        "Built an e-commerce platform that processed over $2M in annual sales",
-        "Optimized database queries, improving application performance by 35%",
-        "Collaborated with UX designers to implement responsive designs across all platforms",
-      ],
-    },
-    {
-      position: "Junior Web Developer",
-      company: "Digital Creations",
-      location: "Los Angeles, CA",
-      period: "2016 - 2018",
-      description:
-        "Started as an intern and quickly progressed to a full-time role. Assisted in the development of websites and web applications using JavaScript, HTML, CSS, and PHP.",
-      achievements: [
-        "Developed a content management system used by over 50 clients",
-        "Contributed to the company's internal tool that streamlined project management",
-        "Received the 'Rookie of the Year' award for exceptional performance",
+        "Developed the Point-of-Sale (POS) and Kiosk modules for a SaaS-based application as part of a frontend internship.",
+        "Built responsive and user-friendly interfaces tailored for real-time transactions and self-service interactions.",
+        "Implemented lightweight client-side algorithms to handle user input validation, item selection,and basic calculations.",
+        "Ensured smooth integration with backend services and contributed to an agile development workflow."
       ],
     },
   ]
@@ -88,7 +76,7 @@ export default function Experience() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white"
           >
-            Professional Journey
+            Experience
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

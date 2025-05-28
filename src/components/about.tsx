@@ -6,6 +6,7 @@ import { useRef } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
+import MeTwo from "@/assets/me2.png"
 
 export default function About() {
   const ref = useRef(null)
@@ -37,15 +38,18 @@ export default function About() {
           className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
         >
           <motion.div variants={itemVariants} className="relative mx-auto md:mx-0 max-w-sm md:max-w-none">
-            <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 opacity-30 blur-xl"></div>
-            <div className="relative aspect-square overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700/20 shadow-lg">
-              <Image
-                src="/placeholder.svg?height=600&width=600"
-                alt="Developer portrait"
-                width={600}
-                height={600}
-                className="object-cover w-full h-full"
-              />
+            <div className="flex justify-center items-center relative">
+              <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 opacity-30 blur-xl"></div>
+
+              <div className="relative aspect-square w-full h-auto rounded-xl border border-gray-200 dark:border-gray-700/20 shadow-lg overflow-hidden">
+                <Image
+                  src={MeTwo}
+                  alt="Developer portrait"
+                  width={300}
+                  height={300}
+                  className="object-contain w-full h-full"
+                />
+              </div>
             </div>
           </motion.div>
 

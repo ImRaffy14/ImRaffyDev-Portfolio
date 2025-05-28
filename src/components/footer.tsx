@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Mail, ArrowUp } from "lucide-react"
+import { Github, Instagram, Facebook, Mail, ArrowUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Footer() {
@@ -25,7 +25,7 @@ export default function Footer() {
             className="mb-6 md:mb-0 text-center md:text-left"
           >
             <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
-              Raffy<span className="text-gray-500">Uanan</span>
+              ImRaffy.<span className="text-gray-500">Dev</span>
             </Link>
             <p className="text-gray-600 dark:text-gray-400 mt-2">Full Stack Developer</p>
           </motion.div>
@@ -132,8 +132,8 @@ export default function Footer() {
                 size="icon"
                 className="rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800"
               >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
               </Button>
             </Link>
             <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
@@ -142,8 +142,8 @@ export default function Footer() {
                 size="icon"
                 className="rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800"
               >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <Facebook className="h-5 w-5" />
+                <span className="sr-only">Facebook</span>
               </Button>
             </Link>
             <Link href="mailto:hello@raffyuanan.com">
@@ -167,7 +167,7 @@ export default function Footer() {
           className="border-t border-gray-200 dark:border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center"
         >
           <p className="text-gray-500 dark:text-gray-500 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Raffy Uanan. All rights reserved.
+            © {new Date().getFullYear()} ImRaffyDev. All rights reserved.
           </p>
 
           <Button

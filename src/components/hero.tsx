@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
+import { ArrowDown, Github, Instagram , Facebook } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
 import { TypeAnimation } from "@/components/type-animation"
+import Me from "@/assets/me.png"
 
 export default function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -132,7 +133,7 @@ export default function Hero() {
                   size="icon"
                   className="rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-200/50 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700/50"
                 >
-                  <Linkedin className="h-5 w-5" />
+                  <Instagram  className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </Link>
@@ -142,7 +143,7 @@ export default function Hero() {
                   size="icon"
                   className="rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-200/50 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700/50"
                 >
-                  <Twitter className="h-5 w-5" />
+                  <Facebook className="h-5 w-5" />
                   <span className="sr-only">Twitter</span>
                 </Button>
               </Link>
@@ -156,9 +157,9 @@ export default function Hero() {
             className="relative hidden lg:block max-w-md mx-auto"
           >
             <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 opacity-30 blur-xl"></div>
-            <div className="relative overflow-hidden rounded-xl border-4 border-white dark:border-gray-800 shadow-xl aspect-[4/3]">
+            <div className="relative overflow-hidden rounded-xl border-4 border-white dark:border-gray-800 shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src={Me}
                 alt="Raffy Uanan - Full Stack Developer"
                 width={800}
                 height={600}

@@ -4,6 +4,30 @@ import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
 import Image from "next/image"
+import Html from "@/assets/icons/html.png"
+import Bootstrap from "@/assets/icons/bootstrap.png"
+import Css from "@/assets/icons/css.png"
+import Js from "@/assets/icons/js.png"
+import React from "@/assets/icons/react.png"
+import Tailwind from "@/assets/icons/tailwind.png"
+import Node from "@/assets/icons/node.png"
+import Mongo from "@/assets/icons/mongodb.png"
+import Express from "@/assets/icons/express.png"
+import Php from "@/assets/icons/php.png"
+import Sql from "@/assets/icons/mysql.png"
+import Docker from "@/assets/icons/docker.png"
+import Drizzle from "@/assets/icons/drizzle.jpg"
+import Linux from "@/assets/icons/linux.png"
+import Git from "@/assets/icons/git.png"
+import Github from "@/assets/icons/github.png"
+import Mariadb from "@/assets/icons/mariadb.png"
+import Nextjs from "@/assets/icons/nextjs.png"
+import Nginx from "@/assets/icons/nginx.png"
+import Prisma from "@/assets/icons/prisma.png"
+import TypeScript from "@/assets/icons/typescript.png"
+import Tensorflow from "@/assets/icons/tensorflow.png"
+import Vscode from "@/assets/icons/vscode.png"
+
 
 export default function Skills() {
   const ref = useRef(null)
@@ -30,84 +54,119 @@ export default function Skills() {
 
   const technologies = [
     {
-      name: "JavaScript",
-      icon: "/placeholder.svg?height=80&width=80",
+      name: "Html",
+      icon: Html,
+      category: "Frontend",
+    },
+    {
+      name: "Css",
+      icon: Css,
+      category: "Frontend",
+    },
+    {
+      name: "PHP",
+      icon: Php,
       category: "Language",
     },
     {
-      name: "TypeScript",
-      icon: "/placeholder.svg?height=80&width=80",
+      name: "Javascript",
+      icon: Js,
+      category: "Language",
+    },
+    {
+      name: "Typescript",
+      icon: TypeScript,
       category: "Language",
     },
     {
       name: "React",
-      icon: "/placeholder.svg?height=80&width=80",
+      icon: React,
       category: "Frontend",
     },
-    {
+            {
       name: "Next.js",
-      icon: "/placeholder.svg?height=80&width=80",
+      icon: Nextjs,
       category: "Frontend",
     },
     {
       name: "Node.js",
-      icon: "/placeholder.svg?height=80&width=80",
+      icon: Node,
       category: "Backend",
     },
     {
       name: "Express",
-      icon: "/placeholder.svg?height=80&width=80",
+      icon: Express,
       category: "Backend",
     },
     {
-      name: "MongoDB",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Database",
-    },
-    {
-      name: "PostgreSQL",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Database",
-    },
-    {
-      name: "Tailwind CSS",
-      icon: "/placeholder.svg?height=80&width=80",
+      name: "Tailwind Css",
+      icon:Tailwind,
       category: "Frontend",
     },
     {
-      name: "Docker",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "DevOps",
+      name: "Bootstrap",
+      icon: Bootstrap,
+      category: "Frontend",
+    },
+    {
+      name: "Mongo DB",
+      icon: Mongo,
+      category: "Database",
+    },
+    {
+      name: "MySQL",
+      icon: Sql,
+      category: "Database",
+    },
+    {
+      name: "Maria DB",
+      icon: Mariadb,
+      category: "Database",
+    },
+    {
+      name: "Prisma",
+      icon: Prisma,
+      category: "ORM",
+    },
+    {
+      name: "Drizzle",
+      icon: Drizzle,
+      category: "ORM",
     },
     {
       name: "Git",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Tool",
+      icon: Git,
+      category: "Tools",
     },
     {
-      name: "AWS",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Cloud",
+      name: "Github",
+      icon: Github,
+      category: "Tools",
     },
     {
-      name: "GraphQL",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "API",
+      name: "VS Code",
+      icon: Vscode,
+      category: "Tools",
     },
     {
-      name: "Redux",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Frontend",
+      name: "Docker",
+      icon: Docker,
+      category: "Devops",
     },
     {
-      name: "Figma",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Design",
+      name: "Linux",
+      icon: Linux,
+      category: "Devops",
     },
-    {
-      name: "Jest",
-      icon: "/placeholder.svg?height=80&width=80",
-      category: "Testing",
+        {
+      name: "Nginx",
+      icon: Nginx,
+      category: "Devops",
+    },
+        {
+      name: "Tensorflow",
+      icon: Tensorflow,
+      category: "Machine Learning",
     },
   ]
 
