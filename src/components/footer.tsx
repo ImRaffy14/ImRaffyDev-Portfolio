@@ -116,7 +116,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex gap-3"
           >
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/ImRaffy14" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -126,7 +126,7 @@ export default function Footer() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.instagram.com/raffyuanan/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -136,7 +136,7 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Button>
             </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.facebook.com/raffy.uanan.10/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -146,7 +146,7 @@ export default function Footer() {
                 <span className="sr-only">Facebook</span>
               </Button>
             </Link>
-            <Link href="mailto:hello@raffyuanan.com">
+            <Link href="mailto:raffysolis@123@gmail.com">
               <Button
                 variant="ghost"
                 size="icon"
