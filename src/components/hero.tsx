@@ -117,7 +117,7 @@ export default function Hero() {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="flex gap-4 mt-8 justify-center lg:justify-start"
             >
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/ImRaffy14" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -127,24 +127,24 @@ export default function Hero() {
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.instagram.com/raffyuanan/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
                   className="rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-200/50 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700/50"
                 >
                   <Instagram  className="h-5 w-5" />
-                  <span className="sr-only">LinkedIn</span>
+                  <span className="sr-only">Instagram</span>
                 </Button>
               </Link>
-              <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.facebook.com/raffy.uanan.10/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
                   className="rounded-full text-gray-600 hover:text-gray-900 hover:bg-gray-200/50 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700/50"
                 >
                   <Facebook className="h-5 w-5" />
-                  <span className="sr-only">Twitter</span>
+                  <span className="sr-only">Facebook</span>
                 </Button>
               </Link>
             </motion.div>
