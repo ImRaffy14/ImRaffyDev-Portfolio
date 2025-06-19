@@ -58,10 +58,10 @@ export default function Projects() {
       id: 4,
       title: "ReadMe Generator",
       description: "Generate clear and professional README files using just a GitHub repository link. Powered by AI, this tool analyzes your project and creates organized and informative documentation using a clean, customizable template—saving you time and effort.",
-      image: Nodadolanding,
+      image: ReadMe,
       technologies: ["Next.js", "Tailwind", "Gemini AI"],
       githubUrl: "https://github.com/ImRaffy14/Readme-Generator",
-      liveUrl: "https://nodadogenhospital.com/",
+      liveUrl: "https://readme.imraffydev.com/",
     },
     {
       id: 5,
@@ -70,7 +70,7 @@ export default function Projects() {
       image: Nodadolanding,
       technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind"],
       githubUrl: "https://github.com/ImRaffy14/HOSPITAL-CORE3",
-      liveUrl: "https://readme.imraffydev.com/",
+      liveUrl: "https://nodadogenhospital.com/",
     },
     {
       id: 6,
