@@ -15,6 +15,7 @@ import Pacc from "@/assets/projects/pacc.png"
 import Sms from "@/assets/projects/sms.png"
 import V1portolio from "@/assets/projects/v1Portfolio.png"
 import V2portfolio from "@/assets/projects/v2Portfolio.png"
+import ReadMe from "@/assets/projects/readMe.png"
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false)
@@ -55,15 +56,24 @@ export default function Projects() {
   const additionalProjects = [
     {
       id: 4,
+      title: "ReadMe Generator",
+      description: "Generate clear and professional README files using just a GitHub repository link. Powered by AI, this tool analyzes your project and creates organized and informative documentation using a clean, customizable template—saving you time and effort.",
+      image: Nodadolanding,
+      technologies: ["Next.js", "Tailwind", "Gemini AI"],
+      githubUrl: "https://github.com/ImRaffy14/Readme-Generator",
+      liveUrl: "https://nodadogenhospital.com/",
+    },
+    {
+      id: 5,
       title: "Nodado Management System",
       description: "A comprehensive management system developed for Nodado General Hospital, integrating core administrative functions including finance and HR. The system streamlines operations such as financial tracking, budgeting, employee records, and HR processes, enhancing overall efficiency and organizational management.",
       image: Nodadolanding,
       technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind"],
       githubUrl: "https://github.com/ImRaffy14/HOSPITAL-CORE3",
-      liveUrl: "https://nodadogenhospital.com/",
+      liveUrl: "https://readme.imraffydev.com/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Enrollment Management System",
       description: "A full-stack system designed to manage student enrollment processes efficiently. Features include student registration, course management, and real-time status tracking—streamlining administrative tasks for educational institutions.",
       image: Ems,
@@ -72,7 +82,7 @@ export default function Projects() {
       liveUrl: "https://enrollment.imraffydev.com/login",
     },
     {
-      id: 6,
+      id: 7,
       title: "School Management System",
       description: "A system built to enhance student communications within a school setting. It streamlines announcements, messaging, and updates between students, teachers, and administrators—improving overall engagement and information flow.",
       image: Sms,
@@ -81,7 +91,7 @@ export default function Projects() {
       liveUrl: "https://sms.imraffydev.com/login",
     },
     {
-      id: 7,
+      id: 8,
       title: "Colorcraft Co.",
       description: "A sleek and visually engaging landing page developed for Colorcraft Co., showcasing their products and services. The page emphasizes a user-friendly design with modern web elements, aiming to provide an intuitive experience for visitors while highlighting the company’s branding and offerings.",
       image: Colorcraft,
@@ -90,7 +100,7 @@ export default function Projects() {
       liveUrl: "https://imraffy14.github.io/ColorCraft.co",
     },
     {
-      id: 8,
+      id: 9,
       title: "v1 ImRaffyDev Portfolio",
       description: "A collection of full-stack systems I’ve developed to solve real-world problems across various industries, including finance, healthcare, education, and community management. Each project highlights my ability to create efficient, customized solutions using modern web technologies.",
       image: V1portolio,
@@ -99,7 +109,7 @@ export default function Projects() {
       liveUrl: "https://v1.imraffydev.com/",
     },
     {
-      id: 9,
+      id: 10,
       title: "v2 ImRaffyDev Portfolio",
       description: "These projects reflect my hands-on experience in building tailored management systems for businesses, schools, and communities. Focused on usability and functionality, my work combines practical needs with full-stack development to deliver impactful solutions.",
       image: V2portfolio,
