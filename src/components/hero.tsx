@@ -38,12 +38,12 @@ export default function Hero() {
       />
 
       <div className="container px-4 mx-auto z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center lg:text-left"
+            className="text-center lg:text-left p-10 "
           >
             <motion.div
               initial={{ opacity: 0 }}
@@ -151,23 +151,25 @@ export default function Hero() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="relative hidden lg:block max-w-md mx-auto"
+            className="relative hidden lg:flex items-center justify-center h-full"
           >
-            <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 opacity-30 blur-xl"></div>
-            <div className="relative overflow-hidden rounded-xl border-4 border-white dark:border-gray-800 shadow-xl">
+            {/* Background glow */}
+            <div className="absolute -inset-4 rounded-4xl bg-gradient-to-r from-gray-400 to-gray-500 dark:from-gray-800 dark:to-gray-900 opacity-30 blur-3xl"></div>
+
+            {/* Image container that fills height */}
+            <div className="relative h-[80%] w-[70%] overflow-hidden rounded-xl border-4 border-white dark:border-gray-800 shadow-xl flex items-center justify-center">
               <Image
                 src={Me}
                 alt="Raffy Uanan - Full Stack Developer"
-                width={800}
-                height={600}
-                className="object-cover w-full h-full"
+                className="w-full h-full object-cover"
                 priority
               />
             </div>
           </motion.div>
+
         </div>
       </div>
 
